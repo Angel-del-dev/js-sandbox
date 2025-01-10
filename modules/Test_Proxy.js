@@ -1,3 +1,7 @@
+/*
+    Test te viability to use a proxy to create pseudo-reactive objects
+*/
+
 const GenerateError = (error) => {
     console.trace(error);
     throw new Error('An error was encountered during proxy creation');

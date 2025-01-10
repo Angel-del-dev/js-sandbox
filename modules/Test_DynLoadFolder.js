@@ -1,3 +1,7 @@
+/*
+    Dynamically load functions from a pre-selected folder 
+*/
+
 import { DynLoadFolder } from "../components/base/DynLoadFolder.js";
 
 // Set PathFactory

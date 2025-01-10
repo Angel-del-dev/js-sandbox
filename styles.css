@@ -1,11 +1,23 @@
 html,
 body {
     margin: 0; padding: 0;
-    width: 100svw; height: 100svh;
+    width: 100%; height: 100%;
     background-color: #171717;
 }
+
+*, *::before, *::after { box-sizing: border-box; }
 
 #root {
     width: 100%;
     height: 100%;
+}
+
+.default_ul > li {
+    color: blue;
+    text-decoration: underline;
+}
+
+.default_ul > li:hover {
+    cursor: pointer;
+    color: white;
 }
