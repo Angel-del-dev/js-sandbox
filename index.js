@@ -5,3 +5,8 @@ import { load } from "./lib/module_loader.js";
 */
 
 //load('Test_DynLoadFolder');
+
+/*
+    Test te viability to use a proxy to create pseudo-reactive objects
+*/
+load('Test_Proxy');
